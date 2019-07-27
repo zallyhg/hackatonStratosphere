@@ -1,5 +1,7 @@
+@import "@material/textfield/mdc-text-field";
+
 body{
-	font-family: CircularStd;
+	font-family: 'Dosis', sans-serif;
 	background-color: rgb(36,40,46);
 	color: #FFFFFF;
 }
@@ -8,7 +10,7 @@ h1{
 	/* Summarize.me */
 
 	position: absolute;
-	height: 61px;
+	height: 20px;
 	left: 36.02%;
 	right: 35.94%;
 	top: calc(50% - 61px/2 - 235.5px);
@@ -22,11 +24,11 @@ h1{
 	color: #FFFFFF;
 }
 
-h2{
+h3{
 	/* How much does intern */
 
 	position: absolute;
-	height: 20px;
+	height: 5px;
 	left: 37.19%;
 	right: 37.11%;
 	top: calc(50% - 20px/2 - 179px);
@@ -54,10 +56,10 @@ h2{
 
 }
 
-.button{
-	border: 1px solid gray;
-	border-color: gray;
-  	background-color: black;
+.mdc-text-field{
+	display: block;
+  	width: 300px;
+  	margin: 20px auto;
 
   	color: white;
  	font-family: CircularStd;
@@ -67,15 +69,38 @@ h2{
 	letter-spacing: 0.8px;
 
 	position: absolute;
-	left: 46.09%;
-	right: 46.09%;
+	left: 40%;
+	right: 60%;
 	top: 49.88%;
 	bottom: 45.88%;
 	padding: 25px;
 
 
 }
+.mdc-text-field__input{
+	color: black;
+}
 
-.resultados{
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  margin: auto;
+  position: absolute;
+ left: 46.09%;
+ right: 46.09%;
+ top: 49.88%;
+ bottom: 45.88%;
+}
+
+.button-container button {
+  margin: 3px;
+}
+button {
+position: absolute;
+left: 46.09%;
+right: 46.09%;
+top: 49.88%;
+bottom: 45.88%;
 
 }

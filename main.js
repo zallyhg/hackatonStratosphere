@@ -10,7 +10,7 @@ const url=require('url')
 let PrincipalScreen
 
 function showPrincipalScreen(){
-	PrincipalScreen=new BrowserWindow({width:380,height:420})
+	PrincipalScreen=new BrowserWindow({width:2048,height:780})
 	//Load principal screen
 	PrincipalScreen.loadURL(url.format({
 		pathname: path.join(__dirname,'index.html'),
