@@ -1,0 +1,81 @@
+body{
+	font-family: CircularStd;
+	background-color: rgb(36,40,46);
+	color: #FFFFFF;
+}
+
+h1{
+	/* Summarize.me */
+
+	position: absolute;
+	height: 61px;
+	left: 36.02%;
+	right: 35.94%;
+	top: calc(50% - 61px/2 - 235.5px);
+
+	font-family: CircularStd;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	letter-spacing: 2.4px;
+
+	color: #FFFFFF;
+}
+
+h2{
+	/* How much does intern */
+
+	position: absolute;
+	height: 20px;
+	left: 37.19%;
+	right: 37.11%;
+	top: calc(50% - 20px/2 - 179px);
+
+	font-family: CircularStd;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.8px;
+
+	color: #FFFFFF;
+
+	mix-blend-mode: normal;
+	opacity: 0.7;
+}
+
+.form{
+	/* button */
+
+	position: absolute;
+	left: 25.94%;
+	right: 25.94%;
+	top: 34.82%;
+	bottom: 58.59%;
+
+}
+
+.button{
+	border: 1px solid gray;
+	border-color: gray;
+  	background-color: black;
+
+  	color: white;
+ 	font-family: CircularStd;
+	font-size: 20px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.8px;
+
+	position: absolute;
+	left: 46.09%;
+	right: 46.09%;
+	top: 49.88%;
+	bottom: 45.88%;
+	padding: 25px;
+
+
+}
+
+.resultados{
+
+}
